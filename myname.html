@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Tourist Places in India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #FF9933, #FFFFFF, #138808);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: black;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .place-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-header {
+            background-color: #FF9933;
+            color: white;
+            padding: 1rem;
+        }
+
+        .card-header h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card-body p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .highlights {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .highlights h4 {
+            color: #138808;
+            margin-bottom: 0.5rem;
+        }
+
+        .highlights ul {
+            margin-left: 1.5rem;
+        }
+
+        .highlights li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .number-badge {
+            display: inline-block;
+            background-color: #138808;
+            color: white;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 2.5rem;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Top 10 Tourist Places in India</h1>
+        <p>Explore the most amazing destinations across India</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="place-grid">
+            <!-- Place 1: Taj Mahal -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">1</span>
+                    <h2>Taj Mahal</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Agra, Uttar Pradesh</p>
+                    <p>The Taj Mahal is one of the most iconic monuments in the world. It's a beautiful white marble mausoleum built by Emperor Shah Jahan for his beloved wife Mumtaz Mahal.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>UNESCO World Heritage Site</li>
+                            <li>Symbol of love and architecture</li>
+                            <li>Beautiful marble inlay work</li>
+                            <li>Best visited during sunrise or sunset</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 2: Gateway of India -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">2</span>
+                    <h2>Gateway of India</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Mumbai, Maharashtra</p>
+                    <p>An iconic arch monument on the Arabian Sea waterfront. It's a symbol of India's independence and a must-visit destination in Mumbai.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Stunning waterfront location</li>
+                            <li>Historical significance</li>
+                            <li>Perfect for photography</li>
+                            <li>Vibrant local atmosphere</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 3: Varanasi -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">3</span>
+                    <h2>Varanasi</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Varanasi, Uttar Pradesh</p>
+                    <p>One of the oldest cities in India and the holiest city for Hindus. Varanasi is famous for its spiritual significance and the Ganges River ghats.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Spiritual and religious importance</li>
+                            <li>Aarti ceremony at the Ganges</li>
+                            <li>Ancient temples and narrow lanes</li>
+                            <li>Cultural experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 4: Jaipur -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">4</span>
+                    <h2>Jaipur</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Jaipur, Rajasthan</p>
+                    <p>Known as the "Pink City," Jaipur is famous for its beautiful architecture, palaces, and forts. It's a major tourist hub in Rajasthan.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>City Palace and Jantar Mantar</li>
+                            <li>Hawa Mahal (Palace of Winds)</li>
+                            <li>Rajasthani culture and cuisine</li>
+                            <li>Beautiful pink-colored buildings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 5: Kerala Backwaters -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">5</span>
+                    <h2>Kerala Backwaters</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Kerala, South India</p>
+                    <p>A network of lagoons and lakes connected by canals. Kerala's backwaters offer scenic beauty and peaceful houseboat cruises.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Scenic houseboat rides</li>
+                            <li>Lush greenery and nature</li>
+                            <li>Water sports activities</li>
+                            <li>Local Kerala cuisine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 6: Goa Beaches -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">6</span>
+                    <h2>Goa Beaches</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Goa, West Coast of India</p>
+                    <p>Goa is famous for its beautiful beaches, Portuguese architecture, and vibrant nightlife. It's a popular beach destination for tourists.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Beautiful sandy beaches</li>
+                            <li>Water sports and activities</li>
+                            <li>Colonial architecture</li>
+                            <li>Beach shacks and nightlife</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 7: Himalayan Mountains -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">7</span>
+                    <h2>Himalayan Mountains</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Himachal Pradesh, Uttarakhand</p>
+                    <p>Home to majestic snow-capped peaks, trekking trails, and adventure activities. The Himalayas offer breathtaking natural beauty.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Trekking and mountaineering</li>
+                            <li>Snow-capped peaks</li>
+                            <li>Adventure sports</li>
+                            <li>Pristine natural beauty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 8: Khajuraho Temples -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">8</span>
+                    <h2>Khajuraho Temples</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Madhya Pradesh, Central India</p>
+                    <p>A UNESCO World Heritage Site with a group of Hindu and Jain temples known for their detailed stone carvings and architecture.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Intricate stone carvings</li>
+                            <li>Ancient temple architecture</li>
+                            <li>UNESCO World Heritage Site</li>
+                            <li>Historical significance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 9: Hawa Mahal Complex -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">9</span>
+                    <h2>Udaipur City Palace</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Udaipur, Rajasthan</p>
+                    <p>A stunning palace overlooking Lake Pichola. It's a beautiful blend of Rajasthani and Mughal architecture, now partly a luxury hotel and museum.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Architectural masterpiece</li>
+                            <li>Lake Pichola views</li>
+                            <li>Royal heritage experience</li>
+                            <li>Perfect for photography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Place 10: Mysore Palace -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="number-badge">10</span>
+                    <h2>Mysore Palace</h2>
+                </div>
+                <div class="card-body">
+                    <p><strong>Location:</strong> Mysore, Karnataka</p>
+                    <p>A grand palace with Indo-Saracenic architecture. It's one of the most visited palaces in India and an important historical monument.</p>
+                    <div class="highlights">
+                        <h4>Why Visit:</h4>
+                        <ul>
+                            <li>Magnificent architecture</li>
+                            <li>Historical palace museum</li>
+                            <li>Intricate decorations</li>
+                            <li>Evening illumination (spectacular!)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Top 10 Tourist Places in India | A Beginner's Guide to Exploring India</p>
+        <p>Happy Traveling! 🌍✈️</p>
+    </footer>
+</body>
+</html>
